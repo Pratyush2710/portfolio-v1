@@ -1,11 +1,34 @@
 {
-    "title":{},
-    "description":{},
-    "image":{},
-    "github":{},
-    "url":{},
-    "featured":{},
-    "stack":{
-        "title":{}
+  "projects": [
+    {
+      "id": "1",
+      "title": "Git Geek Dashboard",
+      "description": "GIT GEEK dashboard provides various features with enhanced UI 1. Your global stats ( Repos, Followers, Following, Gists) 2. Your Profile 3. Followers' Card4. Distribution of languages used in your Repos 5. Stars per language stats 6. Popular Repositories- forks status 7. Popular Forks - Most forked repos stats",
+      "image": "gitGeek",
+      "github": "https://github.com/Pratyush2710/Github-Dashboard",
+      "url": "https://gitgeek.netlify.app/login",
+      "featured": true,
+      "stack": ["JavaScript", "CSS", "HTML"]
+    },
+    {
+      "id": "2",
+      "title": "Apna Anaaj(Crop_Prediction)",
+      "description": "ApnaAnaaj aims to solve crop value prediction problem in an efficient way to ensure the guaranteed benefits to the poor farmers. The team decided to use Machine Learning techniques on various data to came out with better solutionThis solution uses POLYNOMIAL MULTIVARIABLE REGRESSION technique to predict the crop value using the data trained from authentic datasets of Annual Rainfall, WPI Index for about the previous 10 years. This implementation proved to be promising with 93-95% accuracy.",
+      "image": "apnaAnaaj",
+      "github": "https://github.com/Pratyush2710/Crop_Prediction",
+      "url": "https://github.com/Pratyush2710/Crop_Prediction",
+      "featured": true,
+      "stack": ["HTML", "Python"]
+    },
+    {
+      "id": "3",
+      "title": "CamScanner OpenCV",
+      "description": "A simple camsScanner script to detect the bill/image and threshold it. Document scanning is occuring in 3 major steps- 1. Edge Detection 2. Finding Contours 3. Perspective transform to top-down view 4. Threshholding for clean image(optional)",
+      "image": "camscanner",
+      "github": "https://github.com/Pratyush2710/CamScanner_OpenCV",
+      "url": "https://github.com/Pratyush2710/CamScanner_OpenCV",
+      "featured": true,
+      "stack": ["Python 2.7/3+ ", "OpenCV 2.4/3+"]
     }
+  ]
 }
