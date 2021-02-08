@@ -12,12 +12,7 @@ const Project = ({ title, description, image, github, url, stack, index }) => {
     apnaAnaaj: apnaAnaaj,
     camscanner: camscanner,
   };
-  console.log(
-    "hello",
-    mapImagesToProject,
-    typeof image,
-    mapImagesToProject[image]
-  );
+
   return (
     <article className="project">
       <div

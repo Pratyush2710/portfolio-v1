@@ -1,0 +1,14 @@
+{
+  "blogs": [
+    {
+      "slug": "Chrome",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat corrupti accusantium ullam soluta laudantium nulla vero, libero eaque error voluptates tempore obcaecati distinctio ipsam illum quasi officiis nam placeat aut voluptate ab, id porro unde quod. Dignissimos inventore dolores totam necessitatibus nam, quisquam vitae excepturi accusantium tenetur aspernatur pariatur fugiat! Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat corrupti accusantium ullam soluta laudantium nulla vero, libero eaque error voluptates tempore obcaecati distinctio ipsam illum quasi officiis nam placeat aut voluptate ab, id porro unde quod. Dignissimos inventore dolores totam necessitatibus nam, quisquam vitae excepturi accusantium tenetur aspernatur pariatur fugiat!",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat corrupti accusantium ullam soluta laudantium nulla vero, libero eaque error voluptates tempore obcaecati distinctio ipsam illum quasi officiis nam placeat aut voluptate ab, id porro",
+      "date": "May 10th 1920",
+      "id": "Blog_1",
+      "title": "Chrome",
+      "category": "JS",
+      "image": "hello"
+    }
+  ]
+}

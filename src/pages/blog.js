@@ -1,11 +1,31 @@
-import React from "react"
-import Layout from "../components/Layout"
-import { graphql } from "gatsby"
-import Blogs from "../components/Blogs"
-// ...GatsbyImageSharpFluid
+import React, { useState, useEffect } from "react";
+import Layout from "../components/Layout";
+import { Link } from "react-router-dom";
+import axios from "axios";
+import Blogs from "../components/Blogs";
 
 const Blog = () => {
-  return <h2>blog page</h2>
-}
+  const [blogs, setBlogs] = useState(["abc"]);
 
-export default Blog
+  useEffect(() => {
+    axios
+      .get("data/blogs.json")
+      .then((res) => {
+        console.log(res.data);
+        setBlogs(res.data["blogs"]);
+      }, [])
+      .catch((err) => {
+        console.log(err);
+      });
+  }, []);
+
+  return (
+    <Layout>
+      <section className="blog-page">
+        <Blogs blogs={blogs} title="blogs" />
+      </section>
+    </Layout>
+  );
+};
+
+export default Blog;
